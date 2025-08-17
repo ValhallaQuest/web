@@ -39,25 +39,25 @@ const juegos = [
     nombre: "ELDEN RING",
     precio: 69,
     consola: "PS4 & PS5",
-    imagen: "/img/elden.avif"
+    imagen: "img/elden.avif"
   },
   {
     nombre: "HOGWARTS LEGACY",
     precio: 35,
     consola: "PS4 & PS5",
-    imagen: "/img/howart.avif"
+    imagen: "img/howart.avif"
   },
   {
     nombre: "Call of Duty®: Black Ops 6",
     precio: 69,
     consola: "PS4 & PS5",
-    imagen: "/img/call6.avif"
+    imagen: "img/call6.avif"
   },
   {
     nombre: "Call of Duty Modern Warfare Remastered",
     precio: 45,
     consola: "PS4 & PS5",
-    imagen: "/img/callmorden.webp"
+    imagen: "img/callmorden.webp"
   }
 ];
 
@@ -89,35 +89,35 @@ juegos.forEach(juego => {
   `;
 });
 const juegosAgosto = [
-  { nombre: "ARK: Survival Ascended", precio: 55, consola: "PS4 & PS5", imagen: "/img/ark.jpg" },
-  { nombre: "Monster Hunter Wilds", precio: 109, consola: "PS4 & PS5", imagen: "/img/monsterhunter.jpg" },
-  { nombre: "The Crew Motorfest", precio: 39, consola: "PS4 & PS5", imagen: "/img/thecrew.jpg" },
-  { nombre: "Resident Evil 4", precio: 39, consola: "PS4 & PS5", imagen: "/img/re4.jpg" },
-  { nombre: "Resident Evil 4 Remake Trilogy", precio: 75, consola: "PS4 & PS5", imagen: "/img/re4trilogy.avif" },
-  { nombre: "Guilty Gear: Strive", precio: 39, consola: "PS4 & PS5", imagen: "/img/guiltygear.avif" },
-  { nombre: "Lote Crash Bandicoot™: N. Sane Trilogy + CTR Nitro-Fueled", precio: 49, consola: "PS4 & PS5", imagen: "/img/crashctr.jpg" },
-  { nombre: "Lote Triple Juego de Crash™ + Spyro™", precio: 69, consola: "PS4 & PS5", imagen: "/img/crashspyro.jpg" },
-  { nombre: "Crash™ Team Racing Nitro-Fueled", precio: 29, consola: "PS4 & PS5", imagen: "/img/crashracing.jpg" },
-  { nombre: "Warhammer 40,000: Darktide", precio: 69, consola: "PS4 & PS5", imagen: "/img/warhammer.avif" },
-  { nombre: "NARUTO X BORUTO Ultimate Ninja STORM CONNECTIONS", precio: 65, consola: "PS4 & PS5", imagen: "/img/naruto.jpg" },
-  { nombre: "Horizon Forbidden West Complete Edition", precio: 89, consola: "PS4 & PS5", imagen: "/img/horizon.jpg" },
-  { nombre: "Five Nights at Freddy's: Security Breach", precio: 39, consola: "PS4 & PS5", imagen: "/img/fnaf.jpg" },
-  { nombre: "DRAGON BALL XENOVERSE 2", precio: 39, consola: "PS4 & PS5", imagen: "/img/dbxenoverse2.jpg" },
-  { nombre: "Crash Bandicoot™: La trilogía", precio: 29, consola: "PS4 & PS5", imagen: "/img/crashtrilogy.jpg" },
-  { nombre: "FAR CRY®6 Gold Edition", precio: 39, consola: "PS4 & PS5", imagen: "/img/farcry6.jpg" },
-  { nombre: "Persona 3 Reload", precio: 59, consola: "PS4 & PS5", imagen: "/img/persona3.jpg" },
-  { nombre: "BLEACH Rebirth of Souls", precio: 79, consola: "PS4 & PS5", imagen: "/img/bleach.jpg" },
-  { nombre: "Marvel’s Spider-Man: Miles Morales Definitive Edition", precio: 59, consola: "PS4 & PS5", imagen: "/img/milesmorales.jpg" },
-  { nombre: "NINJA GAIDEN Master Collection", precio: 49, consola: "PS4 & PS5", imagen: "/img/ninjagaiden.jpg" },
-  { nombre: "A Quiet Place: The Road Ahead", precio: 49, consola: "PS4 & PS5", imagen: "/img/aquietplace.jpg" },
-  { nombre: "Lords of the Fallen Deluxe Edition", precio: 55, consola: "PS4 & PS5", imagen: "/img/lordsofthefallen.jpg" },
-  { nombre: "Call of Duty®: Black Ops III - Zombies Chronicles Deluxe", precio: 75, consola: "PS4 & PS5", imagen: "/img/codbo3zombies.jpg" },
-  { nombre: "Teenage Mutant Ninja Turtles: The Cowabunga Collection", precio: 35, consola: "PS4 & PS5", imagen: "/img/tmnt.jpg" },
-  { nombre: "God of War Digital Deluxe Edition", precio: 35, consola: "PS4 & PS5", imagen: "/img/gowdeluxe.jpg" },
-  { nombre: "SUPER BOMBERMAN R 2", precio: 55, consola: "PS4 & PS5", imagen: "/img/bomberman.jpg" },
-  { nombre: "Battlefield™ 2042", precio: 35, consola: "PS4 & PS5", imagen: "/img/bf2042.jpg" },
-  { nombre: "Call of Duty®: Black Ops 4 - Digital Deluxe", precio: 75, consola: "PS4 & PS5", imagen: "/img/codbo4.jpg" },
-  { nombre: "Sifu Deluxe Edition", precio: 39, consola: "PS4 & PS5", imagen: "/img/sifu.jpg" }
+  { nombre: "ARK: Survival Ascended", precio: 55, consola: "PS4 & PS5", imagen: "img/ark.jpg" },
+  { nombre: "Monster Hunter Wilds", precio: 109, consola: "PS4 & PS5", imagen: "img/monsterhunter.jpg" },
+  { nombre: "The Crew Motorfest", precio: 39, consola: "PS4 & PS5", imagen: "img/thecrew.jpg" },
+  { nombre: "Resident Evil 4", precio: 39, consola: "PS4 & PS5", imagen: "img/re4.jpg" },
+  { nombre: "Resident Evil 4 Remake Trilogy", precio: 75, consola: "PS4 & PS5", imagen: "img/re4trilogy.avif" },
+  { nombre: "Guilty Gear: Strive", precio: 39, consola: "PS4 & PS5", imagen: "img/guiltygear.avif" },
+  { nombre: "Lote Crash Bandicoot™: N. Sane Trilogy + CTR Nitro-Fueled", precio: 49, consola: "PS4 & PS5", imagen: "img/crashctr.jpg" },
+  { nombre: "Lote Triple Juego de Crash™ + Spyro™", precio: 69, consola: "PS4 & PS5", imagen: "img/crashspyro.jpg" },
+  { nombre: "Crash™ Team Racing Nitro-Fueled", precio: 29, consola: "PS4 & PS5", imagen: "img/crashracing.jpg" },
+  { nombre: "Warhammer 40,000: Darktide", precio: 69, consola: "PS4 & PS5", imagen: "img/warhammer.avif" },
+  { nombre: "NARUTO X BORUTO Ultimate Ninja STORM CONNECTIONS", precio: 65, consola: "PS4 & PS5", imagen: "img/naruto.jpg" },
+  { nombre: "Horizon Forbidden West Complete Edition", precio: 89, consola: "PS4 & PS5", imagen: "img/horizon.jpg" },
+  { nombre: "Five Nights at Freddy's: Security Breach", precio: 39, consola: "PS4 & PS5", imagen: "img/fnaf.jpg" },
+  { nombre: "DRAGON BALL XENOVERSE 2", precio: 39, consola: "PS4 & PS5", imagen: "img/dbxenoverse2.jpg" },
+  { nombre: "Crash Bandicoot™: La trilogía", precio: 29, consola: "PS4 & PS5", imagen: "img/crashtrilogy.jpg" },
+  { nombre: "FAR CRY®6 Gold Edition", precio: 39, consola: "PS4 & PS5", imagen: "img/farcry6.jpg" },
+  { nombre: "Persona 3 Reload", precio: 59, consola: "PS4 & PS5", imagen: "img/persona3.jpg" },
+  { nombre: "BLEACH Rebirth of Souls", precio: 79, consola: "PS4 & PS5", imagen: "img/bleach.jpg" },
+  { nombre: "Marvel’s Spider-Man: Miles Morales Definitive Edition", precio: 59, consola: "PS4 & PS5", imagen: "img/milesmorales.jpg" },
+  { nombre: "NINJA GAIDEN Master Collection", precio: 49, consola: "PS4 & PS5", imagen: "img/ninjagaiden.jpg" },
+  { nombre: "A Quiet Place: The Road Ahead", precio: 49, consola: "PS4 & PS5", imagen: "img/aquietplace.jpg" },
+  { nombre: "Lords of the Fallen Deluxe Edition", precio: 55, consola: "PS4 & PS5", imagen: "img/lordsofthefallen.jpg" },
+  { nombre: "Call of Duty®: Black Ops III - Zombies Chronicles Deluxe", precio: 75, consola: "PS4 & PS5", imagen: "img/codbo3zombies.jpg" },
+  { nombre: "Teenage Mutant Ninja Turtles: The Cowabunga Collection", precio: 35, consola: "PS4 & PS5", imagen: "img/tmnt.jpg" },
+  { nombre: "God of War Digital Deluxe Edition", precio: 35, consola: "PS4 & PS5", imagen: "img/gowdeluxe.jpg" },
+  { nombre: "SUPER BOMBERMAN R 2", precio: 55, consola: "PS4 & PS5", imagen: "img/bomberman.jpg" },
+  { nombre: "Battlefield™ 2042", precio: 35, consola: "PS4 & PS5", imagen: "img/bf2042.jpg" },
+  { nombre: "Call of Duty®: Black Ops 4 - Digital Deluxe", precio: 75, consola: "PS4 & PS5", imagen: "img/codbo4.jpg" },
+  { nombre: "Sifu Deluxe Edition", precio: 39, consola: "PS4 & PS5", imagen: "img/sifu.jpg" }
 ];
 
 
@@ -280,6 +280,7 @@ window.addEventListener('resize', () => {
     lista.style.transform = `translateX(-${actual * (cardWidth + gap)}px)`;
   }
 });
+
 
 
 
