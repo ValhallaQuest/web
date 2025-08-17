@@ -1,0 +1,142 @@
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>VALHALLA QUEST</title>
+    <!-- Bootstrap 5 CSS desde CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+</head>
+
+<body>
+    
+<div class="section-cronometro">
+    <div class="container">
+        <div class="title-cronometro">
+            <h2>OFERTAS GAMESCOM 2025</h2>
+        </div>
+
+       <div class="cronometro">
+  <span id="dias" class="digito"></span><span class="unidad">días</span>
+  <span id="horas" class="digito"></span><span class="unidad">horas</span>
+  <span id="minutos" class="digito"></span><span class="unidad">minutos</span>
+  <span id="segundos" class="digito"></span><span class="unidad">segundos</span>
+</div>
+
+    </div>
+</div>
+
+<div class="section-header">
+<div class="header">
+<div class="logo-imagen">
+<img src="img/logo.png" alt="logo"> 
+</div>
+
+<div class="section-perfil">
+<div class="img-perfil">
+<img src="img/perfil.png" alt="logo-perfil">
+</div>
+
+<div class="section-buscador">
+<div class="input-group">
+  <input id="buscador-juegos" type="text" class="form-control" placeholder="Buscar juegos..." aria-label="Buscar juegos">
+  <button class="btn btn-primary" type="button" id="btn-buscar">
+    <i class="bi bi-search"></i>
+  </button>
+</div>
+
+</div>
+</div>
+</div>
+</div>
+
+<div class="section-ultimas-ofertas">
+<div class="container">
+<h2><span>¡Últimas unidades! </span>¡No dejes pasar la oportunidad!</h2>
+
+<div class="lista-ofertas">
+    <div class="grid-ofertas" id="grid-ofertas">
+        <!-- Aquí se insertarán las cartas por JS -->
+    </div>
+</div>
+
+
+
+</div>
+</div>
+
+
+<div class="section-beneficios">
+<h2>¿Por qué eligir <span>VALHALLA QUEST?</span></h2>
+
+<div class="lista-beneficios">
+<div class="grid-beneficios" id="grid-beneficios">
+        <!-- JS insertará aquí las cartas de Agosto -->
+    </div>
+</div>
+
+</div>
+
+<div class="section-ultimas-ofertas">
+<div class="container">
+<h2><span>¡Ofertas Exclusivas!</span> Aprovecha antes de que se agoten</h2>
+
+<div class="lista-ofertas">
+    <div class="grid-ofertas-agosto" id="grid-ofertas-agosto">
+        <!-- JS insertará aquí las cartas de Agosto -->
+    </div>
+</div>
+
+
+
+</div>
+</div>
+
+<div class="section-testimonios">
+<div class="container">
+<h2>NUESTROS <span>CLIENTES</span> </h2>
+<div class="carrusel-testimonios">
+  <button class="carrusel-btn izq" id="carrusel-izq"><i class="bi bi-chevron-left"></i></button>
+  <div class="testimonios-viewport">
+    <div class="testimonios-lista" id="testimonios-lista">
+      <!-- JS insertará aquí los testimonios -->
+    </div>
+  </div>
+  <button class="carrusel-btn der" id="carrusel-der"><i class="bi bi-chevron-right"></i></button>
+</div>
+</div>
+</div>
+
+<footer class="footer-vq">
+  <div class="footer-content">
+    <div class="footer-left">
+      &copy; 2025 Valhalla Quest. Todos los derechos reservados.
+    </div>
+    <div class="footer-right">
+      <span>Visítanos en:</span>
+      <a href="https://www.tiktok.com/@valhalla.quest" target="_blank" class="footer-icon" aria-label="TikTok">
+        <i class="bi bi-tiktok"></i>
+      </a>
+      <a href="https://www.facebook.com/share/1AyavHGPzG/" target="_blank" class="footer-icon" aria-label="Facebook">
+        <i class="bi bi-facebook"></i>
+      </a>
+      <a href="https://www.instagram.com/valhalla_quest?igsh=MjkwY3gzc2EwaDhv" target="_blank" class="footer-icon" aria-label="Instagram">
+        <i class="bi bi-instagram"></i>
+      </a>
+    </div>
+  </div>
+</footer>
+
+  
+    
+</body>
+
+<script src="js.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</html>
